@@ -1,0 +1,59 @@
+.background_picture {
+  width: 100%;
+  height: calc(100vh);
+  background: url(../assets/clouds.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.background_picture img {
+  max-height: 800px;;
+  z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  top: 300px;;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+path {
+  stroke: rgb(92, 92, 92);
+}
+
+path:hover {
+  stroke: rgb(0, 0, 0);
+  transition: fill 0.15s;
+}
+
+#branches {
+  position: relative;
+  float: right;
+  margin-right: 30px;
+  size: 20%;
+  top: 0px;
+  word-wrap: normal;
+}
+
+.main img {
+  width: 400px;
+}
+
+.infobox {
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  max-width: 300px;
+}
+
+.infobox h3 {
+  font-family: tahoma;
+  font-weight: lighter;
+}
+
+.infobox #info {
+  font-size: 12px;
+  color: #a6a6a6;
+  font-style: italic;
+}

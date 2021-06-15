@@ -1,0 +1,14 @@
+.content {
+  margin-top: 500px;
+  margin-left: 10px;
+  width: 96.5%;
+}
+
+#background {
+  position: absolute;
+  opacity: 20%;
+}
+
+img {
+  height: 1035px;
+}
