@@ -1,20 +1,20 @@
 .background_picture {
   width: 100%;
   height: calc(100vh);
-  background: url(../assets/clouds.jpg) no-repeat 50% 50%;
+  background: url(../assets/front_page_image_bg.png) no-repeat 50% 50%;
   background-size: cover;
   position: relative;
   z-index: -1;
 }
 
 .background_picture img {
-  max-height: 800px;;
+  max-height: 1000px;;
   z-index: -1;
   position: absolute;
   object-fit: cover;
-  top: 300px;;
-  bottom: 0;
-  left: 0;
+  top: 200px;
+  bottom: 100px;
+  left: 0px;
   margin: auto;
 }
 
@@ -34,10 +34,6 @@ path:hover {
   size: 20%;
   top: 0px;
   word-wrap: normal;
-}
-
-.main img {
-  width: 400px;
 }
 
 .infobox {

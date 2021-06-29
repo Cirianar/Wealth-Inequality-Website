@@ -1,5 +1,4 @@
 body {
-
   margin: 0;
   font-family: "open sans";
   font-weight: 300;
@@ -7,8 +6,8 @@ body {
 }
 
 header {
-  background: #4878e4;
-  height: 90px;
+  background: #5f5f5f;
+  height: 130px;
 }
 
 header::after {
@@ -28,6 +27,22 @@ header h1 {
   font-weight: 800;
   color: white;
   padding: 0px;
+  top:20px;
+  text-align: center;
+}
+
+header h2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 2px;
+  font-family: tahoma;
+  font-weight: 600;
+  color: white;
+  padding: 0px;
+  top:60px;
   text-align: center;
 }
 
@@ -37,8 +52,8 @@ nav {
   position: absolute;
   float: right;
   display: block;
-  background: #004aad;
-  top:  90px;
+  background: #424242;
+  top:  130px;
   left: 0px;
   right: 0px;
 }
@@ -67,8 +82,8 @@ li a {
 }
 
 li a:hover {
-  background: #dfedff;
-  color: #004aad;
+  background: #ffffff;
+  color: #4a4c4e;
   transition: 0.15s;
 }
 
