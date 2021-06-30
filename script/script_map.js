@@ -88,9 +88,3 @@ d3.csv("./data/data_csv.csv", function(d) {
     });
 });
 
-$(window).scroll(function() {
-  var scrollPos = $(this).scrollTop();
-  $(".background_picture").css({
-    "background-size" : scrollPos + 100 + "%"
-  });
-});

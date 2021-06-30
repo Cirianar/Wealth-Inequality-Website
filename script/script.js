@@ -10,3 +10,10 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$(window).scroll(function() {
+  var scrollPos = $(this).scrollTop();
+  $(".background_picture").css({
+    "background-size" : scrollPos + 100 + "%"
+  });
+});

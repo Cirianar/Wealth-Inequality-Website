@@ -122,3 +122,20 @@ li a:hover {
   font-size: 20px;
   margin-top: 25px;
 }
+
+.left_img {
+  background-color: #535353;
+  width: 90%;
+  padding: 30px;
+  box-shadow: 5px 10px 8px #696969;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.right_img {
+  background-color: #d8d8d8;
+  width: 90%;
+  padding: 30px;
+  box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 20px;
+}
